@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2015-11-01" view-index="0" gantt-divider-location="502" resource-divider-location="300" version="2.7.1" locale="fr_FR">
+<?xml version="1.0" encoding="UTF-8"?><project name="BPP Project" company="Seaside" webLink="http://" view-date="2015-12-01" view-index="0" gantt-divider-location="502" resource-divider-location="300" version="2.7.1" locale="fr">
     <description/>
-    <view zooming-state="default:9" id="gantt-chart">
+    <view zooming-state="default:8" id="gantt-chart">
         <field id="tpd3" name="Nom" width="67" order="0"/>
         <field id="tpd4" name="Date de début" width="18" order="1"/>
         <field id="tpd5" name="Date de fin" width="13" order="2"/>
@@ -39,7 +39,7 @@
         <task id="10" name="Analyse" color="#8cb6ce" meeting="false" start="2016-01-01" duration="20" complete="0" expand="true"/>
         <task id="60" name="Validation analyse" color="#0000cc" meeting="true" start="2016-02-01" duration="0" complete="0" expand="true"/>
         <task id="15" name="Conception" color="#8cb6ce" meeting="false" start="2016-01-25" duration="10" complete="0" expand="true"/>
-        <task id="62" name="Validtion Conception" color="#0000cc" meeting="true" start="2016-02-08" duration="0" complete="0" expand="true"/>
+        <task id="62" name="Validtion Conception" color="#0000cc" meeting="true" start="2016-02-10" duration="0" complete="0" expand="true"/>
         <task id="16" name="Réalisation + TU" color="#000000" meeting="false" start="2016-01-29" duration="107" complete="0" expand="true">
             <task id="32" name="Lot 1" color="#000066" meeting="false" start="2016-01-29" duration="47" complete="0" expand="true">
                 <task id="78" name="Paramètrage" color="#8cb6ce" meeting="false" start="2016-01-29" duration="47" complete="0" expand="true">
@@ -49,10 +49,7 @@
             <task id="66" name="Lot 2" color="#000066" meeting="false" start="2016-04-05" duration="16" complete="0" expand="true">
                 <task id="73" name="Planning initial" color="#8cb6ce" meeting="false" start="2016-04-05" duration="16" complete="0" expand="true"/>
             </task>
-            <task id="119" name="Livraison Lot 1 et 2" color="#990000" meeting="true" start="2016-05-02" duration="0" complete="0" expand="true">
-                <notes><![CDATA[Livraison lot 1
-]]></notes>
-            </task>
+            <task id="119" name="Livraison Lot 1 et 2" color="#990000" meeting="true" start="2016-05-02" duration="0" complete="0" expand="true"/>
             <task id="67" name="Lot 3" color="#000066" meeting="false" start="2016-05-02" duration="15" complete="0" expand="true">
                 <task id="68" name="Redevances prévisinelles" color="#8cb6ce" meeting="false" start="2016-05-02" duration="9" complete="0" expand="true">
                     <depend id="79" type="2" difference="0" hardness="Strong"/>
@@ -84,7 +81,10 @@
             <depend id="3" type="2" difference="0" hardness="Strong"/>
         </task>
         <task id="3" name="Mise en production" color="#990000" meeting="true" start="2016-09-01" duration="0" complete="0" expand="true"/>
-        <task id="25" name="Suivit Projet" color="#006600" meeting="false" start="2016-01-01" duration="175" complete="0" expand="true"/>
+        <task id="25" name="Suivit Projet" color="#006600" meeting="false" start="2016-01-01" duration="175" complete="0" expand="true">
+            <notes><![CDATA[1/2 chef de projet
+]]></notes>
+        </task>
     </tasks>
     <resources/>
     <allocations/>
